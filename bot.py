@@ -3,7 +3,7 @@ I was created in 2020.
 Please, remind me your name.''')
 name = input()
 print(f"""What a great name you have, {name}!\nLet me guess your age.""")
-print("Enter the remainders of dividing your age by 3, 5 and 7.")
+print("Enter the remainders you get dividing your age by 3, 5 and 7.")
 remainder3 = int(input())
 remainder5 = int(input())
 remainder7 = int(input())
@@ -16,7 +16,7 @@ for _ in range(num + 1):
     print(count, '!')
     count += 1
 
-print("""Let's test your programming knowledge.
+print("""Now let's test your programming knowledge.
 Why do we use methods?""")
 
 print("""1. To repeat a statement multiple times.
@@ -28,6 +28,6 @@ while True:
     if ans == 2:
         break
     else:
-        print("Please, try again.")
+        print("Please, try again!")
 print("Completed, have a nice day!")
 print("Congratulations, have a nice day!")
